@@ -19,3 +19,9 @@ window.onload = setInterval(function(){
     let  scrolloint = window.scrollY + window.innerHeight;
     window.scrollTo({top: scrollPoint, behavior: 'smooth'});
 }, uptadeRate);
+
+window.onload = function(){
+    for(img = 0; img <5; img++){
+        proxImmagem( img );
+    }
+}
