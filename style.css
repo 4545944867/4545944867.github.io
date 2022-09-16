@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+body{
     background-color: rgb(51, 51, 51);
 }
 
 #placeholder{
     border: solid 3px rgb(48, 124, 211);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
